@@ -14,7 +14,7 @@ const Aboutme = () => {
              <div className="w-full h-100 my-auto mx-auto p-3 flex ">
             
             <div className="mx-auto items-center ml-4 rounded-full">
-             <img src="/images/profile.jpg"  className="mx-auto h-60 w-64 0 rounded-full " alt="" />
+             <img src="/images/profile.jpg"  className="mx-auto h-60 w-72 0 rounded-full " alt="" />
             <h1 className="font-bold text-xl text-center mt-2">Nithin S K</h1>
             <p className="text-center my-2">CSE Graduate-2020</p>
             <h1 className="text-center logoC mt-4">Dayananda Sagar Academy of Technollogy and Management Bengaluru</h1>
