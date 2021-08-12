@@ -1,38 +1,57 @@
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  width: 300px;
+  background: 
+      linear-gradient(#fff, #fff) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+  background-color: transparent;
+ 
+  padding: 3rem;
+  border-radius: 0;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.react-multiple-carousel__arrow {
+  z-index: 0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+textarea{
+  color: #fff !important;
 }
 
-.App-link {
-  color: #61dafb;
+.color{
+  background-color: #C162E5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logoC{
+  color: #C162E5;
+}
+
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -80px;
+  transition: 0.5s;
+}
+button:hover{
+  padding-right: 1px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 70px;
 }
